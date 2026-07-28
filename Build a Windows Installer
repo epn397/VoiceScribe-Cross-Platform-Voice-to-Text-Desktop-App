@@ -1,0 +1,2 @@
+npm run build            # NSIS installer in /dist
+npm run build:portable   # single portable .exe
