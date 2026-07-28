@@ -1,0 +1,25 @@
+{
+  "name": "voicescribe",
+  "version": "1.0.0",
+  "description": "Lightweight real-time Voice-to-Text desktop app (English & Bangla)",
+  "main": "src/main/main.js",
+  "author": "VoiceScribe",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "build:win": "electron-builder --win",
+    "build:mac": "electron-builder --mac",
+    "build:linux": "electron-builder --linux"
+  },
+  "dependencies": {
+    "docx": "^8.5.0",
+    "electron-store": "^8.2.0",
+    "microsoft-cognitiveservices-speech-sdk": "^1.38.0",
+    "pdfkit": "^0.15.0"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^24.13.3"
+  }
+}
